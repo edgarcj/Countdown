@@ -5,6 +5,7 @@
 body{
 	background-image: url("./colinas.jpg");
 	background-size: cover;
+	bacground-repeat: no-repeat;
 	background-position: center center;
 	display: flex;
 	flex-direction: column;
