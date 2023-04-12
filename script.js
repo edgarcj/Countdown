@@ -1,7 +1,7 @@
-const daysEl = document.getElementById('days');
-const hoursEl = document.getElementById('hours');
-const minsEl = document.getElementById('mins');
-const secondsEl = document.getElementById('seconds');
+const daysEl = document.querySelector('#days');
+const hoursEl = document.querySelector('#hours');
+const minsEl = document.querySelector('#mins');
+const secondsEl = document.querySelector('#seconds');
 
 
 const newYears = "1 Jan 2024";
