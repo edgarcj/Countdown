@@ -4,13 +4,13 @@ const minsEl = document.getElementById('mins');
 const secondsEl = document.getElementById('seconds');
 
 
-const newYears = "1 Jan 2023";
+const newYears = "1 Jan 2024";
 
 function countdown() {
 	const newYearsDate = new Date(newYears);
 	const currentDate = new Date();
 
-	const totalSeconds = (newYearsDate - currentDate) /	 1000;
+	const totalSeconds = (newYearsDate - currentDate) / 1000;
 
 	const days = Math.floor(totalSeconds / 3600 / 24 );
 
