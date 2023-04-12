@@ -3,13 +3,13 @@
 }
 
 body{
-	background-image: url("./colinas.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./colinas.jpg");
 	background-size: cover;
-	bacground-repeat: no-repeat;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	min-height: 100vh;
+	color: white;
 	font-family: sans-serif;
 	margin: 0px;
 }
@@ -31,6 +31,7 @@ h1{
 	font-size: 6rem;
 	line-height: 1;
 	margin: 0 2rem;
+	text-shadow: 6px 6px 2px #000;
 }
 
 .countdown-el {
